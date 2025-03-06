@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* - */
+.buttons {
+    height: 125px;
+    width: 450px;
+    margin: 100px auto;
+    background-color: grey;
+    display: flex;
+}
+
+.buttons > * {
+    flex: 1;
+    background-color: azure;
+    margin: 10px 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
